@@ -5,7 +5,6 @@ import NextApp from 'next/app'
 import theme from '../lib/theme'
 import { ThemeProvider } from 'theme-ui'
 import ColorSwitcher from '../components/color-switcher'
-import Head from 'next/head'
 import Meta from '../components/meta'
 
 export default class App extends NextApp {
