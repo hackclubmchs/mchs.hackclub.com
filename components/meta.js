@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import theme from '@hackclub/theme' // or '../lib/theme'
+import theme from '../lib/theme'
 
 export default ({
   title = 'Hack Club MCHS',
