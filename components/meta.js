@@ -2,7 +2,8 @@ import Head from 'next/head'
 import theme from '../lib/theme'
 
 const Meta = ({
-  title = 'Hack Club MCHS',
+  name = 'Hack Club MCHS',
+  title = 'Hack Club at Middle College High School',
   description = 'Welcome to Hack Club at Middle College High School!',
   image = '/card.png',
   url = 'https://mchs.hackclub.com/'
@@ -13,7 +14,7 @@ const Meta = ({
     <meta name="twitter:title" content={title} />
     <meta name="og:url" content={url} />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content={title} />
+    <meta property="og:site_name" content={name} />
     <meta name="description" content={description} />
     <meta property="og:description" content={description} />
     <meta name="twitter:description" content={description} />
