@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import theme from '../lib/theme'
 
-export default ({
+const Meta = ({
   title = 'Hack Club MCHS',
   description = 'Welcome to Hack Club at Middle College High School!',
   image = '/card.png',
@@ -25,3 +25,5 @@ export default ({
     <link rel="icon" href="/favicon.svg" />
   </Head>
 )
+
+export default Meta
