@@ -6,21 +6,14 @@ import theme from '@hackclub/theme'
 import { ThemeProvider } from 'theme-ui'
 import ColorSwitcher from '../components/color-switcher'
 import Head from 'next/head'
-import Meta from '@hackclub/meta'
+import Meta from '../components/meta'
 
 export default class App extends NextApp {
   render() {
     const { Component, pageProps } = this.props
     return (
       <ThemeProvider theme={theme}>
-        <Meta
-          as={Head}
-          name="Hack Club MCHS"
-          title="Home"
-          description="Welcome to Hack Club MCHS"
-          image="/card.png"
-          color="#5901c9"
-        />
+        <Meta />
         <ColorSwitcher />
         <Component {...pageProps} />
       </ThemeProvider>
