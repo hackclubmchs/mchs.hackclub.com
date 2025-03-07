@@ -16,6 +16,4 @@ const FooterComponent = () => (
   </Box>
 );
 
-FooterComponent.displayName = 'FooterComponent';
-
 export default FooterComponent;
