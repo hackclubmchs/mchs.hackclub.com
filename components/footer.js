@@ -1,7 +1,7 @@
 import Footer from './footer.mdx'
-import { Container, Box } from 'theme-ui'
+import { Box } from 'theme-ui'
 
-export default () => (
+const FooterComponent = () => (
   <Box
     as="footer"
     sx={{
@@ -14,4 +14,8 @@ export default () => (
   >
     <Footer />
   </Box>
-)
+);
+
+FooterComponent.displayName = 'FooterComponent';
+
+export default FooterComponent;
