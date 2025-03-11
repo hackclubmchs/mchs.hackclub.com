@@ -10,6 +10,10 @@ export default () => (
         maxHeight: '400px',
         pt: 2,
     }}>
-        <Image src="/banner-logo.svg" sx={{ height: '100px' }} />
+        <Image
+            src="/banner-logo.svg"
+            alt='Hack Club logo'
+            width={100}
+        />
     </Box >
 )
