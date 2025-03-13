@@ -1,5 +1,5 @@
+import { Box, Link } from 'theme-ui'
 import Footer from './footer.mdx'
-import { Box, Grid, Link } from 'theme-ui'
 import Icon from './icon'
 
 const Service = ({ href, icon, name = '', ...props }) => (

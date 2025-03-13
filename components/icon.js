@@ -1,3 +1,5 @@
 import Icon from '@hackclub/icons'
 
-export default props => <Icon {...props} />
+const IconComponent = props => <Icon {...props} />
+
+export default IconComponent
