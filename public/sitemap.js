@@ -4,7 +4,7 @@ export default function sitemap() {
       url: 'https://mchs.hackclub.com',
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: 1,
-    },
+      priority: 1
+    }
   ]
 }

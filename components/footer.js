@@ -19,7 +19,11 @@ const FooterComponent = () => (
     as="footer"
     sx={{
       color: 'secondary',
-      bg: 'sunken', textAlign: 'center', px: 2, py: [3, 4], mt: [4, 5],
+      bg: 'sunken',
+      textAlign: 'center',
+      px: 2,
+      py: [3, 4],
+      mt: [4, 5],
       a: { color: 'secondary' }
     }}
   >
@@ -37,6 +41,6 @@ const FooterComponent = () => (
     </Box>
     <Footer />
   </Box>
-);
+)
 
-export default FooterComponent;
+export default FooterComponent

@@ -8,13 +8,8 @@
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
       "runtimeExecutable": "yarn",
-      "runtimeArgs": [
-        "run",
-        "dev"
-      ],
-      "skipFiles": [
-        "<node_internals>/**"
-      ]
+      "runtimeArgs": ["run", "dev"],
+      "skipFiles": ["<node_internals>/**"]
     }
   ]
 }

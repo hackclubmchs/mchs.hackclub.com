@@ -11,9 +11,10 @@
   },
   "customizations": {
     "codespaces": {
-      "openFiles": [
-        "pages/index.js"
-      ]
+      "openFiles": ["pages/index.js"]
+    },
+    "vscode": {
+      "extensions": ["dbaeumer.vscode-eslint"]
     }
   },
   "portsAttributes": {
