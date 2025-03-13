@@ -1,6 +1,6 @@
 import { Box, Image } from 'theme-ui'
 
-export default () => (
+const Header = () => (
   <Box
     as="header"
     sx={{
@@ -17,3 +17,5 @@ export default () => (
     <Image src="/banner-logo.svg" alt="Hack Club logo" width={100} />
   </Box>
 )
+
+export default Header
