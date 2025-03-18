@@ -1,6 +1,6 @@
 import { Container, Text } from 'theme-ui'
 
-export default () => (
+const About = () => (
   <Container
     variant="copy"
     sx={{
@@ -19,3 +19,5 @@ export default () => (
     </Text>
   </Container>
 )
+
+export default About
