@@ -1,0 +1,12 @@
+modules = ["nodejs-22"]
+run = "yarn run dev"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "yarn run dev"]
+
+[[ports]]
+localPort = 3000
+externalPort = 80
