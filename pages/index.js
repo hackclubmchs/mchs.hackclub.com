@@ -7,7 +7,7 @@ import About from '../components/about'
 const HomePage = () => (
   <>
     <Meta />
-    <Nav />
+    {/* <Nav /> */}
     <Header />
     <About />
     <Footer />
