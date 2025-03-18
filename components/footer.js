@@ -38,6 +38,16 @@ const FooterComponent = () => (
         icon="github"
         name="GitHub"
       />
+      <Service
+        href="https://join.slack.com/t/hackclub/shared_invite/zt-306f6k985-hoVeSXw0Z8Z6bu~hN3tWTA"
+        icon="slack"
+        name="Slack"
+      />
+      <Service
+        href="https://classroom.google.com/c/NzAyNjcwMDMxNDM3?cjc=bwhbexu"
+        icon="google"
+        name="Google Classroom (@lodiusd.org)"
+      />
     </Box>
     <Footer />
   </Box>
