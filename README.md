@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/hackclubmchs/mchs.hackclub.com/main/public/favicon.svg" width="128" alt="Hack Club MCHS Logo">
+<img src="https://raw.githubusercontent.com/hackclubmchs/mchs.hackclub.com/main/public/favicon.svg" width="64" alt="Hack Club MCHS Logo">
 
 # Hack Club MCHS's Site
 
