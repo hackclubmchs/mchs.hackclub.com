@@ -1,5 +1,4 @@
-import { Box, Link } from 'theme-ui'
-import Footer from './footer.mdx'
+import { Box, Link, Text } from 'theme-ui'
 import Icon from './icon'
 
 const Service = ({ href, icon, name = '', ...props }) => (
@@ -8,6 +7,10 @@ const Service = ({ href, icon, name = '', ...props }) => (
     rel="noopener me"
     href={href}
     title={`Hack Club MCHS on ${name ? name : icon}`}
+    sx={{
+      display: 'inline-flex',
+      mx: [0, 1],
+    }}
     {...props}
   >
     <Icon glyph={icon} />
@@ -21,10 +24,12 @@ const FooterComponent = () => (
       color: 'secondary',
       bg: 'sunken',
       textAlign: 'center',
-      px: 2,
-      py: [3, 4],
+      p: [3, 4],
       mt: [4, 5],
-      a: { color: 'secondary' }
+      a: { color: 'secondary' },
+      display: 'flex',
+      flexDirection: 'column',
+      gap: [2, 3],
     }}
   >
     <Box>
@@ -49,7 +54,14 @@ const FooterComponent = () => (
         name="Google Classroom (@lodiusd.org)"
       />
     </Box>
-    <Footer />
+
+    <Text>
+      Hack Club MCHS is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN: 81-2908499).
+    </Text>
+
+    <Link href="https://github.com/RyanLua/mchs.hackclub.com">
+      Open source on GitHub
+    </Link>
   </Box>
 )
 
