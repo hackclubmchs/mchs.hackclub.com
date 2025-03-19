@@ -1,6 +1,6 @@
-<img src="https://raw.githubusercontent.com/hackclubmchs/mchs.hackclub.com/main/public/favicon.svg" width="64" alt="Hack Club MCHS Logo">
+<img src="https://raw.githubusercontent.com/hackclubmchs/mchs.hackclub.com/main/public/favicon.svg" width="64" alt="Hack Club MCHS site favicon">
 
-# Hack Club MCHS's Site
+# Hack Club MCHS Site
 
 [![Run with Replit](https://replit.com/badge)](https://replit.com/github/hackclubmchs/mchs.hackclub.com)
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/hackclubmchs/mchs.hackclub.com?quickstart=1)
