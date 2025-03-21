@@ -17,7 +17,7 @@ const Service = ({ href, icon, name = '', ...props }) => (
   </Link>
 )
 
-const FooterComponent = () => (
+const Footer = () => (
   <Box
     as="footer"
     sx={{
@@ -66,4 +66,4 @@ const FooterComponent = () => (
   </Box>
 )
 
-export default FooterComponent
+export default Footer

@@ -5,10 +5,12 @@ import teamData from '../data/team.json'
 const Team = () => (
   <Container>
     <Heading variant="headline">Board</Heading>
-    <Box sx={{
-      my: 4,
-      gap: 4,
-    }} >
+    <Box
+      sx={{
+        my: 4,
+        gap: 4
+      }}
+    >
       {teamData.map(member => (
         <Bio
           img={member.avatar}
