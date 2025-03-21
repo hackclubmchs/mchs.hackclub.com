@@ -9,7 +9,7 @@ const Service = ({ href, icon, name = '', ...props }) => (
     title={`Hack Club MCHS on ${name ? name : icon}`}
     sx={{
       display: 'inline-flex',
-      mx: [0, 1],
+      mx: [0, 1]
     }}
     {...props}
   >
@@ -29,7 +29,7 @@ const FooterComponent = () => (
       a: { color: 'secondary' },
       display: 'flex',
       flexDirection: 'column',
-      gap: [2, 3],
+      gap: [2, 3]
     }}
   >
     <Box>
@@ -56,7 +56,8 @@ const FooterComponent = () => (
     </Box>
 
     <Text>
-      Hack Club MCHS is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN: 81-2908499).
+      Hack Club MCHS is fiscally sponsored by The Hack Foundation (d.b.a. Hack
+      Club), a 501(c)(3) nonprofit (EIN: 81-2908499).
     </Text>
 
     <Link href="https://github.com/RyanLua/mchs.hackclub.com">
