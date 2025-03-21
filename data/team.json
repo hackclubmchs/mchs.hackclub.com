@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Jakob Arriola",
+    "role": "President",
+    "pronouns": "he/him",
+    "email": "zacharriola11@proton.me"
+  },
+  {
+    "name": "Ayush Bhardwaj",
+    "role": "Vice President",
+    "pronouns": "he/him",
+    "email": "ayush071@icloud.com"
+  },
+  {
+    "name": "Ryan Luu",
+    "role": "Head Teacher",
+    "pronouns": "he/him",
+    "email": "ryan.luu@ryanluu.dev",
+    "website": "https://ryanluu.dev"
+  },
+  {
+    "name": "Jasmine Ghalyoun",
+    "role": "Secretary",
+    "pronouns": "she/her",
+    "email": "jasmine.ghalyoun@gmail.com"
+  },
+  {
+    "name": "Misha Malik",
+    "role": "Historian",
+    "pronouns": "she/her",
+    "email": "mishamalik2023@gmail.com"
+  }
+]
